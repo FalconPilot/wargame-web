@@ -1,0 +1,9 @@
+# OS X desktop artifacts
+*/.DS_Store
+
+# Environment files
+*/.env
+*/.env.*
+
+# NPM artifacts
+*/node_modules

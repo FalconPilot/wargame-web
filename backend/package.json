@@ -1,0 +1,12 @@
+{
+  "name": "wargame-web-backend",
+  "author": "falconpilot",
+  "version": "0.1.0",
+  "license": "ISC",
+  "engines": {
+    "node": "11.10.1",
+    "npm": "6.9.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
