@@ -7,6 +7,14 @@
     "node": "11.10.1",
     "npm": "6.9.0"
   },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "dotenv nodemon src/index.js"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "dotenv-cli": "^2.0.0",
+    "nodemon": "^1.19.1"
+  }
 }
