@@ -1,5 +1,5 @@
 // Validate and override env
-const validatedEnv = require('./env')(process.env)
+const validatedEnv = require('./envalid')(process.env)
 process.env = validatedEnv
 
 const app = require('express')()
