@@ -4,7 +4,8 @@ const validators = {
   NODE_ENV: envalid.str({
     choices: ['development', 'staging', 'test', 'production']
   }),
-  PORT: envalid.num()
+  PORT: envalid.num(),
+  DATABASE_URL: envalid.url()
 }
 
 const validateEnv = processDotEnv => envalid.cleanEnv(
