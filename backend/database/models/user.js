@@ -6,7 +6,8 @@ module.exports = (sequelize, DataTypes) => {
       autoIncrement: true
     },
     email: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      allowNull: false
     }
   }, {
     tableName: 'users',

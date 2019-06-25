@@ -9,7 +9,8 @@ module.exports = {
           primaryKey: true
         },
         email: {
-          type: Sequelize.STRING
+          type: Sequelize.STRING,
+          allowNull: false
         }
       }, {
         transaction
