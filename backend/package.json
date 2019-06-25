@@ -10,13 +10,11 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "dotenv nodemon src/index.js",
-
     "db:create": "sequelize db:create",
     "db:drop": "sequelize db:drop",
     "db:migrations:create": "sequelize migration:generate --name",
     "db:migrations:run": "sequelize db:migrate",
     "db:migrations:down": "sequelize db:migrate:undo:all",
-
     "dev:db:create": "dotenv npm run db:create",
     "dev:db:drop": "dotenv npm run db:drop",
     "dev:db:migrations:create": "dotenv npm run db:migrations:create",
@@ -27,8 +25,8 @@
     "envalid": "^5.0.0",
     "express": "^4.17.1",
     "pg": "^7.11.0",
-    "sequelize": "^5.8.7",
-    "sequelize-cli": "^5.4.0"
+    "sequelize": "^5.8.12",
+    "sequelize-cli": "^5.5.0"
   },
   "devDependencies": {
     "dotenv": "^8.0.0",
